@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.position1{
+
+display: flex;
+justify-content: space-between;
+align-content: end;
+background-color: black;
+padding: 15px;
+
+}
+.position1 a:hover{
+    background-color: #007bff;
+    color: white;   
+
+}
+.shift-left{
+    transition: transform 0.3s ease;    
+}
+.shift-left:hover img{
+    transform: scale(1.1);
+}
+
+.content-abt {
+    background-image: url('pic8.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .99;
+
+    }
+    .navlink{
+        text-decoration:none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .shift-mid{
+
+    display: flex; 
+    justify-content: center;
+    background-color: grey;
+    padding: 10px;   
+
+    }
+
+    .mid-2{
+        display: flex;
+        justify-content: center;
+
+    }
+    .mid-2{
+        padding: 12px;
+
+    }
+    .mid-3{
+        display: flex;
+        justify-content: center;
+    }
+    .mid-4{
+       padding-left: 10%;
+
+    }
+    .mid-5{
+        padding-left: 10%;
+ 
+     }
+     .mid-7{
+        padding-left: 10%;
+ 
+     }
+     .mid-8{
+        padding-left: 10%;
+ 
+     }
+    .shift-abt{
+
+        display: flex;
+        justify-content: center;
+        padding: 12%;
+    
+        }
+        .section-program{
+
+        display: flex; 
+        justify-content: center;
+        padding-left: 12px;   
+
+        }
+
+.content-group{
+
+background-color: grey;
+
+}
+
+
+.footer-container {
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info, .footer-links {
+    flex: 1;
+}
+
+.footer-info h3, .footer-links h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.shift-left{
+    transition: transform 0.3s ease;    
+}
+.shift-left:hover img{
+    transform: scale(1.1);
+}
+
+.position1{
+
+display: flex;
+justify-content: space-between;
+align-content: end;
+background-color: black;
+padding: 15px;
+
+}
+.position1 a:hover{
+    background-color: #007bff;
+    color: white;   
+
+}
+.navlink{
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.shift-abt{
+
+display: flex;
+justify-content: center;
+padding: 12%;
+
+}
+
+.shift-8{
+display: flex;
+justify-content: center;
+background-color: grey;
+border-radius: 5px;
+
+}
+
+.content-abt {
+    background-image: url('pic8.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .99;
+    }
+
+.content-abt{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    }
+
+
+.shift-7{
+display: flex;
+justify-content: center;
+padding-left: 19px;
+background-color: grey;
+}
+
+#pic-1{
+
+padding-left: 30%;
+}
+
+
+.footer-container {
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info, .footer-links {
+    flex: 1;
+}
+
+.footer-info h3, .footer-links h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
