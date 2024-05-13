@@ -45,7 +45,7 @@ border-radius: 5px;
 }
 
 .content-abt {
-    background-image: url('pic8.avif');
+    background-image: url('../img/pic8.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
